@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог продуктов</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <img src="{% static 'image/biotact_logo.svg' %}" style="height: 50px; margin:10px;">
+            <div id="category-tabs">
+                <button class="category-tab active" data-category="products">Продукты</button>
+                <button class="category-tab" data-category="sets">Эксклюзивные сеты</button>
+            </div>
+            <button id="cart-button">Корзина (<span id="cart-count">0</span>)</button>
+        </header>
+
+        <main id="product-list">
+            <!-- Продукты будут добавлены здесь динамически -->
+        </main>
+
+        <div id="product-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modal-product-image" alt="">
+                <h2 id="modal-product-name"></h2>
+                <p id="modal-product-description"></p>
+                <p id="modal-product-price"></p>
+                <div id="modal-quantity-control"></div>
+            </div>
+        </div>
+
+        <div id="cart-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Корзина</h2>
+                <div id="cart-items">
+                    <!-- Товары в корзине будут добавлены здесь динамически -->
+                </div>
+                <p>Итого: <span id="cart-total">0</span></p>
+                <button id="confirm-order">Подтвердить заказ</button>
+            </div>
+        </div>
+    </div>
+
+    <template id="cart-item-template">
+        <div class="cart-item">
+            <img class="cart-item-image" alt="">
+            <div class="cart-item-details">
+                <span class="cart-item-name"></span>
+                <span class="cart-item-price"></span>
+                <div class="quantity-control">
+                    <button class="quantity-btn minus">-</button>
+                    <span class="quantity"></span>
+                    <button class="quantity-btn plus">+</button>
+                </div>
+            </div>
+            <button class="cart-item-remove">Удалить</button>
+        </div>
+    </template>
+
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+{
+  "menu": {
+    "ru": {
+      "message_hello": "<b>\uD83C\uDDE9\uD83C\uDDEA Добро пожаловать в онлайн магазин Biotact Deutschland!</b> <blockquote>\n\nЗдесь вы можете приобрести пробиотики и витаминно-минеральные комплексы для всей семьи.\n\nМы гарантируем немецкое качество. Международные стандарты ISO 9001 и ISO 22000 HACCP, сертифицированные немецким органом DQS, а также собственная лаборатория являются залогом качества и безопасности нашей продукции.</blockquote>\n",
+      "message_info": "Узбекистан, 100109 Ташкент\nУлица Фаробий 448j\n\uD83D\uDCDE +998935551747",
+      "message_reg_name": "Напишите ваше имя",
+      "message_reg_phone": "Введите свой номер телефона\n \nОтправить номер с помощью кнопки ОТПРАВИТЬ КОНТАКТ",
+      "message_promocode": "Введите промокод",
+      "inline_keyboard_button": {
+       "choose_product": "\uD83D\uDECDЗаказать",
+        "leave_feedback": "✍Оставить отзыв",
+        "about_us": "ℹ\uFE0F О нас",
+        "about_delivery": "❕Дополнительная информация",
+        "public_offer": "\uD83D\uDCC4 Публичная оферта",
+        "cart": "\uD83D\uDCE5 Корзина",
+        "promocode": "\uD83C\uDF9FВвести промокод",
+        "order": "Оформить заказ",
+        "pickup": "\uD83C\uDFC3Самовывоз",
+        "delivery": "\uD83D\uDE96Доставка",
+        "back": "◀\uFE0FНазад",
+        "send_location": "\uD83D\uDCCDОтправить местоположение",
+        "send_location1": "Добавить в мои адресса",
+        "re-order": "Начать заказ заново",
+        "settings": "⚙\uFE0FНастройки",
+        "promotion": "\uD83C\uDF89Акции",
+        "my_orders": "\uD83D\uDCCBМои заказы",
+        "supp_phone_num": "Пропустить"
+
+      },
+      "choose_product_menu_1": "<b>Выберите категорию:</b>",
+      "choose_product_menu_2": "<b>Выберите категорию:</b>",
+      "about_us_menu": "<b>BIOTACT DEUTSCHLAND</b>  - ваш надежный партнер в мире инновационных пробиотиков и витаминно-минеральных \nкомплексов. Мы вносим инновации и немецкое качество в каждый дом, предоставляя вам и вашей семье лучшее для здоровья.\n<blockquote>• Головной офис BIOTACT DEUTSCHLAND находится в Германии, в городе Бонн.\n• 19 лет / Продукция известна в Узбекистане.\n• 8 млн / Проданных упаковок.\n• Инновационные формулы.\n• Команда высококлассных специалистов и профессионалов в области медицины, биологии и химии.\n• Собственная сертифицированная лаборатория.\n• Международные стандарты ISO 9001 и ISO 22000 от немецкого органа DQS.\n• Членство в NEM e.V.- Европейской ассоциации производителей и дистрибьютеров нутрицевтиков и продуктов для здоровья.\n• 100% натуральная и безопасная продукция, без искусственных добавок и аллергенов.\n• Подходит для всех возрастных групп: детей, взрослых, пожилых, беременных и кормящих.\n• Гарантированное немецкое качество.</blockquote>",
+      "which_payment": "Какой способ оплаты?",
+      "supp_phone_num": "Введите дополнительный номер телефона, в формате +998*********",
+      "successful_payment": "Оплата прошла успешно",
+      "terms_text": "Условия оплаты и использования:\n\n1. Все платежи не подлежат возврату.\n2. Пожалуйста, убедитесь, что все предоставленные данные верны.\n3. Мы не несем ответственности за ошибки, вызванные неправильно введенными данными.\n4. Пожалуйста, свяжитесь с нашей поддержкой для любых вопросов или проблем.\n\nБлагодарим за использование наших услуг!",
+      "promotions": "На данный момент, акций нет.\nВ скором времени они появятся \uD83C\uDF3F",
+      "choose_product_menu": "\uD83D\uDE0AДавайте продолжим!\nВыберите категорию:\n",
+      "address": "\uD83D\uDDFA Адрес:  улица Фаробий, 463 \n   \n\uD83C\uDFE2 Ориентир:  Бизнес центр \"Saray\", Bellissimo Pizza Beltepa, не доезжая нового ТашМИ\n                       \n☎\uFE0F Номер для связи:  +998 93 555 17 47\n                       \n\uD83D\uDD59 Рабочие часы: 8:30 - 17:30 (пн-пт)",
+      "delivery_menu": "<b>Стандартная доставка по г. Ташкент:</b>\n\n• Заказы в будние дни (пн-пт), оформленные до обеда (до 13:00), доставляются в этот же день, а оформленные после обеда - на следующий день\n• Стоимость стандартной доставки составляет 30 тыс. сум\n• При покупке свыше 233 тыс. сум - стандартная доставка бесплатная (действует только для г.Ташкент)\n• Время доставки: Понедельник - Суббота, 16:00-20:00\n\nЭкспресс доставка за 1 час:\n\n• Доступна с понедельника по пятницу, с 8:30 до 17:30\n• Доставка заказа после оплаты в течении 1-1,5 часов в зависимости от расстояния до получателя\n• Без фиксированного тарифа. Стоимость экспресс-доставки рассчитывается в момент оплаты заказа по тарифам Яндекс и др.\n• Акция на бесплатную доставку при покупке свыше 233 тыс. сум для экспресс-доставки не действует\n\nВ регионы Узбекистана:\n\n• Доставка в центральные города осуществляется курьерской службой в рабочие дни в течение 1-4 дней\n• Доставка в регионы оплачивается клиентом\n\n<b>* при предоставлении промокода предоставляется скидка 3%</b>"
+    },
+    "uz": {
+      "message_hello": "<b>\uD83C\uDDE9\uD83C\uDDEA Biotact Deutschland onlayn-do'koniga xush kelibsiz!</b>\n\n<blockquote>Bu erda siz butun oila uchun probiyotiklar va vitamin-mineral komplekslarni xarid qilishingiz mumkin.\n\nBiz nemis sifatiga kafolat beramiz. Germaniya DQS organi tomonidan sertifikatlangan ISO 9001 va ISO 22000 HACCP xalqaro standartlari, shuningdek, o'z laboratoriyamiz mahsulotimiz sifati va xavfsizligi kafolati hisoblanadi.</blockquote>\n",
+      "message_info": "\nO‘zbekiston, 100109 Toshkent\nForobiy ko‘chasi, 448j\n\uD83D\uDCDE +998935551747",
+      "message_reg_name": "Ismni kiriting",
+      "message_reg_phone": "Telefon raqamingizni kiriting\n \n“KONTAKTNI YUBORISH” tugmasi yordamida raqamni yuboring”\n\n",
+      "message_promocode": "Promokod kiritish",
+      "inline_keyboard_button": {
+        "choose_product": "\uD83D\uDECDBuyurtma berish",
+        "leave_feedback": "✍Otziv qoldirish",
+        "about_us": "ℹ\uFE0F Biz haqimizda",
+        "about_delivery": "❕Qo'shimcha ma'lumot",
+        "public_offer": "\uD83D\uDCC4 Ommaviy oferta",
+        "cart": "\uD83D\uDCE5 Savatim",
+        "promocode": "\uD83C\uDF9FPromokod kiritish",
+        "order": "Buyurtma berish",
+        "pickup": "\uD83C\uDFC3Olib ketish",
+        "delivery": "\uD83D\uDE96Yetkazib berish",
+        "back": "◀\uFE0FOrqaga",
+        "send_location": "\uD83D\uDCCDManzilni jo’natish",
+        "send_location1": "Mening manzilimga qoshish",
+        "re-order": "Buyurtma qayta boshlash",
+        "settings": "⚙\uFE0FSozlamalar",
+        "promotion": "\uD83C\uDF89Aksiyalar",
+        "my_orders": "\uD83D\uDCCBMening buyurtmalarim",
+        "supp_phone_num": "Otkazish"
+
+      },
+      "choose_product_menu_1": "<b>Kategoriyani tanlang:</b>",
+      "choose_product_menu_2": "<b>Kategoriyani tanlang:</b>",
+      "about_us_menu": "<b>BIOTACT DEUTSCHLAND</b> - innovatsion probiotiklar hamda vitamin va minerallar komplekslari olamida sizning ishonchli \nhamkoringiz. Biz innovatsiyalar va nemis sifatini har bir uyga olib kirishimiz bilan siz va oilangiz salomatligi uchun eng \nyaxshisini taqdim etamiz.\n\n<blockquote>• BIOTACT DEUTSCHLANDning bosh ofisi Germaniyaning Bonn shahrida joylashgan. \n• 19 yil / Mahsulot Oʻzbekistonda tanilgan. \n• 8 mln / Sotilgan qadoqlar.\n• Innovatsion formulalar.\n• Tibbiyot, biologiya va kimyo sohasida yuqori malakali mutaxassis va professionallar jamoasi.\n• Oʻz serkifikatlashtirilgan laboratoriyamiz.\n• Nemis organi DQS tomonidan ISO 9001 va ISO 22000 xalqaro standartlari.\n• NEM e.V. aʼzosi – Yevropaning salomatlik uchun turli mahsulotlar va nutritsevtiklar ishlab chiqaruvchilari va distribyuterlari assotsiatsiyasi.\n• sunʼiy qoʻshimcha va allergenlarsiz, 100% tabiiy va xavfsiz mahsulot.\n• Barcha yosh guruhidagilarga mos keladi: bolalar, kattalar, keksalar, homilador va \n emizikli ayollar. \n• Kafolatlangan nemis sifati.</blockquote>",
+      "which_payment": "Qaysi to’lov usulini tanlang?",
+      "supp_phone_num": "Telefon raqamingizni +998********* formatda kiritng",
+      "successful_payment": "successful_payment",
+      "terms_text": "To'lov va foydalanish shartlari:\n\n1. Barcha to'lovlar qaytarilmaydi.\n2. Iltimos, barcha taqdim etilgan ma'lumotlarning to'g'riligiga ishonch hosil qiling.\n3. Noto'g'ri kiritilgan ma'lumotlar sabab bo'lgan xatolar uchun javobgar emasmiz.\n4. Iltimos, har qanday savol yoki muammolar bo'yicha qo'llab-quvvatlash xizmatimizga murojaat qiling.\n\nXizmatlarimizdan foydalanganingiz uchun rahmat!",
+      "promotion": "Ayni paytda aksiyalar mavjud emas. Ular tez orada paydo bo'ladi \uD83C\uDF3F",
+      "choose_product_menu": "\uD83D\uDE0A Davom etamiz! \nKategoriya tanlang:",
+      "address": "\uD83D\uDDFA Manzil: Farobiy ko'chasi, 463 \n \n\uD83C\uDFE2Ориент malumot: \"Saray\" biznes markazi, Bellissimo Pizza Beltepa, yangi Tashmiga etib bormasdan\n \n\uFE0F \uFE0F Aloqa raqami: +998 93 555 17 47\n \n\uD83D\uDD59 Ish vaqti: 8: 30-17: 30 (dushanba-juma)",
+      "delivery_menu": "<b>Toshkent bo'ylab standart yetkazib berish:</b>\n• Ish kunlarida (dushanba-juma) tushlikdan oldin (soat 13:00 ga qadar) berilgan buyurtmalar shu kuni, tushlikdan keyin berilgan buyurtmalar esa ertasi kuni yetkazib beriladi.\n• Standart yetkazib berish narxi 30 ming so‘m\n• 233 ming so'mdan ortiq xaridlar uchun - standart yetkazib berish bepul (faqat Toshkent shahri uchun amal qiladi)\n• Yetkazib berish vaqti: dushanba - shanba, 16:00-20:00\n\n1 soat ichida tezkor yetkazib berish:\n• Dushanbadan jumagacha, soat 8:30 dan 17:30 gacha mavjud.\n• Buyurtmani qabul qiluvchigacha bo'lgan masofaga qarab 1-1,5 soat ichida to'lovdan keyin yetkazib beriladi\n• Belgilangan tarifsiz.Tez yetkazib berish narxi Yandex va boshqa tariflar bo'yicha buyurtma uchun to'lov vaqtida hisoblanadi.\n• 233 ming soʻmdan ortiq xaridlar uchun bepul yetkazib berish aksiyasi tezkor yetkazib berish uchun amal qilmaydi.\n\nO'zbekiston viloyatlariga:\n• Markaziy shaharlarga yetkazib berish kuryerlik xizmati orqali ish kunlarida 1-4 kun ichida amalga oshiriladi\n• Hududlarga yetkazib berish mijoz tomonidan toʻlanadi\n\n\n<b>* promo-kodni taqdim etganingizda sizga 3% chegirma beriladi</b>\n"
+    }
+  }
+}

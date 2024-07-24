@@ -1,0 +1,213 @@
+:root {
+    --tg-theme-bg-color: #0c3d2b; /* фон */
+    --tg-theme-text-color: #ffffff; /* основной текст */
+    --tg-theme-hint-color: #b3b3b3; /* подсказки */
+    --tg-theme-link-color: #66c2ff; /* ссылки */
+    --tg-theme-button-color: #145c4a; /* кнопки */
+    --tg-theme-button-text-color: #ffffff; /* текст на кнопках */
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--tg-theme-bg-color);
+    color: var(--tg-theme-text-color);
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: var(--tg-theme-bg-color);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px;
+
+}
+
+#category-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.category-tab {
+    background-color: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category-tab.active {
+    background-color: var(--tg-theme-link-color);
+}
+
+#cart-button {
+    background-color: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid var(--tg-theme-hint-color);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-info h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-control button {
+    background-color: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: var(--tg-theme-bg-color);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid var(--tg-theme-hint-color);
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.close {
+    color: var(--tg-theme-hint-color);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#modal-product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#confirm-order {
+    background-color: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cart-item-image{
+    width: 30%;
+}
+
+.cart-item{
+margin-top: 10px;
+}
+
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 600px) {
+    #app {
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #category-tabs {
+        margin-bottom: 10px;
+    }
+
+    .category-tab {
+        padding: 8px 15px;
+    }
+
+    #cart-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #product-list {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+    }
+
+    .product-card {
+        padding: 5px;
+    }
+
+    .product-info h2 {
+        font-size: 16px;
+    }
+
+    .modal-content {
+        margin: 10% auto;
+    }
+}
