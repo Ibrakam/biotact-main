@@ -1,5 +1,7 @@
 import os
 from datetime import datetime
+from urllib.parse import unquote
+
 
 from aiogram.enums import ContentType
 from aiogram.fsm.storage.base import StorageKey
@@ -1034,18 +1036,19 @@ async def product_menu(message, product_id):
     lang = await get_lang(user_id)
     price = float(product.price)
     formatted_price = "{:,.0f} сум".format(price).replace(",", " ")
+    current_path = os.path.abspath(os.getcwd())
+    decoded_file_name = unquote(product.product_image.url)
     if lang == "ru":
-        image = get_image("/root/biotact" + product.product_image.url)
         await message.answer_photo(
-            photo=FSInputFile("/root/biotact" + product.product_image.url),
+            photo=FSInputFile(current_path + decoded_file_name),
             caption=f"<b>{product.product_name}</b>\n\n"
                     f"{formatted_price}\n\n{product.description_ru}",
             parse_mode="HTML", reply_markup=product_menu_kb(lang=lang))
     else:
         await message.answer_photo(
-            photo=FSInputFile("/root/biotact" + product.product_image.url),
+            photo=FSInputFile(current_path + decoded_file_name),
             caption=f"<b>{product.product_name}</b>\n\n"
-                    f"{formatted_price}\n\n{product.description_ru}",
+                    f"{formatted_price}\n\n{product.description_uz}",
             parse_mode="HTML", reply_markup=product_menu_kb(lang=lang))
 
 

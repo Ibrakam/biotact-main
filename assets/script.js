@@ -35,7 +35,7 @@ function renderProducts() {
             <img src="${product.image}" alt="${product.name}" class="product-image">
             <div class="product-info">
                 <h2>${product.name}</h2>
-                <p>Цена: ${product.price} руб.</p>
+                <p>Цена: ${product.price} сум</p>
                 <button onclick="showProductDetails(${product.id})">Подробнее</button>
                 <div class="quantity-control">
                     ${renderQuantityControl(product.id)}

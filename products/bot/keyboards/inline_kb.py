@@ -113,7 +113,7 @@ def back_promocode(lang: str) -> InlineKeyboardMarkup:
 
 
 def wb_button(lang: str) -> InlineKeyboardMarkup:
-    web_app_url = 'https://bbb1-212-115-114-108.ngrok-free.app'  #
+    web_app_url = 'https://biotact.homescare.uz/'  #
     buttons = [
         [
             InlineKeyboardButton(text=("Меню" if lang == 'ru' else "Menyu"), web_app=WebAppInfo(url=web_app_url))

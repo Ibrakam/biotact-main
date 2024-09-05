@@ -28,7 +28,7 @@ class ProductList(generics.ListAPIView):
         return queryset
 
 
-print(Product.objects.filter(category='products').all())
+#print(Product.objects.filter(category='products').all())
 
 
 class ProductDetail(generics.RetrieveAPIView):

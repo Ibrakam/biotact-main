@@ -1,4 +1,4 @@
-#!/root/biotact/venv/bin/python3
+#!/root/biotact-main/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
